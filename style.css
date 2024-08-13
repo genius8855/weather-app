@@ -1,0 +1,106 @@
+body{
+    height: 570px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(51, 14, 14));
+}
+
+.box{
+    width: 380px;
+    height: 520px;
+    margin-left: 500px;
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+    margin-top: 90px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: white;
+}
+
+.search{
+    display: flex;
+    height: 100px;
+}
+
+.input{
+    height: 40px;
+    margin-top: 40px;
+    width: 230px;
+    margin-left: 55px;
+    border-radius: 50px;
+    border: solid black 1.5px;
+}
+
+.button{
+    height: 45px;
+    width: 40px;
+    margin-top: 40px;
+    margin-left: 14px;
+    border-radius: 50px;
+    border: solid black 1.5px;
+}
+
+.button :hover{
+    cursor: pointer;
+}
+
+.button img{
+    height: 12px;
+    width: 10px;
+}
+
+.second-row img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.temp{
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.city{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.rem;
+}
+
+.last-row{
+    display: flex;
+    margin-top: 6px;
+}
+
+.humidity{
+    margin-left: 65px;
+}
+
+.speed{
+    margin-left: 178px;
+}
+
+.error{
+    display: none;
+}
+
+.text{
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 80px;
+}
+
+.humid {
+    margin-left: 40px;
+}
+
+.spd{
+    margin-left: 140px;
+}
